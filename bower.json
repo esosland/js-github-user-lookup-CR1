@@ -1,0 +1,22 @@
+{
+  "name": "js-github-user-lookup-cr1",
+  "description": "",
+  "main": "gulpfile.js",
+  "authors": [
+    "Elissa Sosland <esosland@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/esosland/js-github-user-lookup-CR1",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^2.2.4",
+    "bootstrap": "^3.3.6",
+    "moment": "^2.13.0"
+  }
+}
