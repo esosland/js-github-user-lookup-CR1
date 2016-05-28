@@ -1,11 +1,11 @@
-var GithubUser = require ('./../js/user.js').GithubUser;
-var getRepos = require('./../js/user.js').getRepos;
+var GithubObject = require ('./../js/user.js').GithubObject;
+// var getRepos = require('./../js/user.js').getRepos;
 
 $(document).ready(function() {
-  var currentGithubUser = new GithubUser();
+  var currentGithubObject = new GithubObject();
   $('#displayUsername').click(function() {
     var user = $('#username').val();
     $('#username').val("");
-    currentGithubUser.getRepos(user);
+    currentGithubObject.getRepos(user);
   });
 });
